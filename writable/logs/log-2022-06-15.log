@@ -1,0 +1,64 @@
+CRITICAL - 2022-06-15 00:33:19 --> Undefined variable $home
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/app/Views/menu/menu.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 152)
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Common.php(1089): CodeIgniter\View\View->render('menu/menu', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/app/Controllers/Menu.php(9): view('menu/menu')
+#5 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-06-15 00:41:36 --> Undefined variable $home
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/app/Views/menu/menu.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 155)
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Common.php(1089): CodeIgniter\View\View->render('menu/menu', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/app/Controllers/Menu.php(9): view('menu/menu')
+#5 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-06-15 00:42:43 --> Undefined variable $menu
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/app/Views/menu/menu.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 155)
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/View/View.php(210): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Common.php(1089): CodeIgniter\View\View->render('menu/menu', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/app/Controllers/Menu.php(9): view('menu/menu')
+#5 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2022-06-15 00:56:05 --> Too few arguments to function App\Controllers\Menu::view(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-15 00:57:11 --> Too few arguments to function App\Controllers\Menu::view(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-15 00:57:46 --> Too few arguments to function App\Controllers\Menu::view(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2022-06-15 00:57:47 --> Too few arguments to function App\Controllers\Menu::view(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(832): App\Controllers\Menu->view()
+#1 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/codeigniter4/fiyukedai/system/Commands/Server/rewrite.php(43): require_once('/Applications/X...')
+#5 {main}
